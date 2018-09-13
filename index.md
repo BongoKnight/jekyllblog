@@ -2,8 +2,8 @@
 title: Bienvenue
 layout: default
 ---
-Bienvenue sur ce petit blog, l'idée est de recenser, des articles, des tweets, des expériences personelles ou simplement des petites astuces autour de la sécurité informatique en général...
-Voici si dessous une liste des différents articles.
+Bienvenue sur ce petit blog, l'idÃ©e est de recenser, des articles, des tweets, des expÃ©riences personnelles ou simplement des petites astuces autour de la sÃ©curitÃ© informatique en gÃ©nÃ©ral...
+Voici-ci dessous une liste des diffÃ©rents articles:
 <ul>
   {% for post in site.posts %}
 	<li>
