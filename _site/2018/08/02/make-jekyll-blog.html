@@ -1,2 +1,34 @@
-<p>En construction.</p>
+<blockquote>
+  <p>Testé sur Ubuntu 16.04LTS en Septembre 2018</p>
+</blockquote>
+
+<h1 id="installation">Installation</h1>
+
+<p>Pour l’installation de Jekyll en tant que tel les informations données sur le site sont largement suffisantes :</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Installation de ruby</span>
+<span class="nb">sudo </span>apt-get install ruby ruby-dev build-essential
+<span class="nb">echo</span> <span class="s1">'# Install Ruby Gems to ~/gems'</span> <span class="o">&gt;&gt;</span> ~/.bashrc
+<span class="nb">echo</span> <span class="s1">'export GEM_HOME=$HOME/gems'</span> <span class="o">&gt;&gt;</span> ~/.bashrc
+<span class="nb">echo</span> <span class="s1">'export PATH=$HOME/gems/bin:$PATH'</span> <span class="o">&gt;&gt;</span> ~/.bashrc
+<span class="nb">source</span> ~/.bashrc
+
+<span class="c"># Installation de jekyll</span>
+gem install jekyll bundler
+
+<span class="c"># Lancement de jekyll</span>
+jekyll new blog
+<span class="nb">cd </span>Myblog
+<span class="c"># ls pour vérifier la présence d'un Gemfile</span>
+bundle <span class="nb">exec </span>jekyll serve
+
+</code></pre></div></div>
+
+<p>Gem et Bundler sont deux gestionnaires de dépendances en ruby. Gem permet l’installation des dépendances sur la machine lorsque Bundler permet de mettre en place le nécessaire pour le lancement de l’application.</p>
+
+<p>Une fois la dernière commande lancée, se rendre en 127.0.0.1:4000 pour admirer son site.</p>
+
+<p>Vous devriez avoir quelque chose dans ce style :</p>
+
+<p><img src="/img/jekyll_start.png" alt="Jekyll Screen" /></p>
 
