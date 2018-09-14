@@ -1,6 +1,6 @@
 ---
 title: Un blog avec Jekyll
-layout: default
+layout: post
 ---
 > Testé sur Ubuntu 16.04LTS en Septembre 2018
 
@@ -34,3 +34,7 @@ Une fois la dernière commande lancée, se rendre en 127.0.0.1:4000 pour admirer
 Vous devriez avoir quelque chose dans ce style :
 
 ![Jekyll Screen](/img/jekyll_start.png)
+
+# Ajout d'un template
+
+## Structure du projet

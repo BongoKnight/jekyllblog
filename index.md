@@ -1,6 +1,6 @@
 ---
 title: Bienvenue
-layout: default
+layout: main
 ---
 Bienvenue sur ce petit blog, l'idée est de recenser, des articles, des tweets, des expériences personnelles ou simplement des petites astuces autour de la sécurité informatique en général...
 Voici-ci dessous une liste des différents articles:
