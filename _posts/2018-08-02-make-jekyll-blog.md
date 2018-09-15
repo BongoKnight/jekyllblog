@@ -1,6 +1,14 @@
 ---
 title: Un blog avec Jekyll
 layout: post
+description: Vous aussi vous voulez un blog avec Jekyll ? C'est par ici...
+image: '/img/jekyll_start.png'
+category: 'Jekyll'
+tags:
+- jekyll
+- blogpost
+twitter_text: Comment construire son premier article avec Jekyll ?
+introduction: Comment construire son premier article avec Jekyll ?
 ---
 > Testé sur Ubuntu 16.04LTS en Septembre 2018
 

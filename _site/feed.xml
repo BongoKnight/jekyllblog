@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
+    <title>Blog</title>
+    <description>Some text about your blog.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 14 Sep 2018 07:54:04 +0200</pubDate>
-    <lastBuildDate>Fri, 14 Sep 2018 07:54:04 +0200</lastBuildDate>
+    <pubDate>Sat, 15 Sep 2018 18:43:47 +0200</pubDate>
+    <lastBuildDate>Sat, 15 Sep 2018 18:43:47 +0200</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
         <title>Un blog avec Jekyll</title>
         <description>&lt;blockquote&gt; &lt;p&gt;Testé sur Ubuntu 16.04LTS en Septembre 2018&lt;/p&gt; &lt;/blockquote&gt; &lt;h1 id=&quot;installation&quot;&gt;Installation&lt;/h1&gt; &lt;p&gt;Pour l’installation de Jekyll en tant que tel les informations données sur le site sont largement suffisantes :&lt;/p&gt; &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# Installation de ruby&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get install ruby ruby-dev build-essential &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'# Install Ruby Gems to ~/gems'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; ~/.bashrc &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'export GEM_HOME=$HOME/gems'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; ~/.bashrc &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'export PATH=$HOME/gems/bin:$PATH'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; ~/.bashrc &lt;span class=&quot;nb&quot;&gt;source&lt;/span&gt; ~/.bashrc &lt;span class=&quot;c&quot;&gt;# Installation de jekyll&lt;/span&gt; gem install jekyll bundler &lt;span class=&quot;c&quot;&gt;# Lancement de jekyll&lt;/span&gt; jekyll new blog &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;Myblog &lt;span class=&quot;c&quot;&gt;# ls pour...</description>
         <pubDate>Thu, 02 Aug 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2018/08/02/make-jekyll-blog.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/08/02/make-jekyll-blog.html</guid>
+        <link>http://localhost:4000/make-jekyll-blog/</link>
+        <guid isPermaLink="true">http://localhost:4000/make-jekyll-blog/</guid>
         
+        <category>jekyll</category>
+        
+        <category>blogpost</category>
+        
+        
+        <category>Jekyll</category>
         
       </item>
     
@@ -23,8 +29,8 @@
         <title>Minhas primeiras 5 impressões sobre Django</title>
         <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
         <pubDate>Thu, 11 May 2017 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/django/2017/05/11/minhas-primeiras-5-impressoes-sobre-django.html</link>
-        <guid isPermaLink="true">http://localhost:4000/django/2017/05/11/minhas-primeiras-5-impressoes-sobre-django.html</guid>
+        <link>http://localhost:4000/minhas-primeiras-5-impressoes-sobre-django/</link>
+        <guid isPermaLink="true">http://localhost:4000/minhas-primeiras-5-impressoes-sobre-django/</guid>
         
         <category>django</category>
         

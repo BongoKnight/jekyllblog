@@ -2,7 +2,7 @@
 title: Blog
 email: youremail@xyz.com
 description: Some text about your blog.
-baseurl: "/jekyllblog/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://svernin.github.io/" # the base hostname & protocol for your site
 
 # User Settings
@@ -28,6 +28,8 @@ links:
     url: /about/
   - title: Contact
     url: /contact/
+  - title: Tags
+    url: /tags/index.html
 
 # Exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
