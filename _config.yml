@@ -2,7 +2,7 @@
 title: Blog
 email: youremail@xyz.com
 description: Some text about your blog.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/jekyllblog" # the subpath of your site, e.g. /blog
 url: "https://svernin.github.io/" # the base hostname & protocol for your site
 
 # User Settings
