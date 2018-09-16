@@ -1,7 +1,7 @@
 # Site Settings
 title: Blog
-email: youremail@xyz.com
-description: Some text about your blog.
+email: simon.vernin+jekyll@gmail.com
+description: Un blog de tout et de rien
 baseurl: "/jekyllblog" # the subpath of your site, e.g. /blog
 url: "https://svernin.github.io/" # the base hostname & protocol for your site
 

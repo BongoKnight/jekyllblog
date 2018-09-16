@@ -2,12 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog</title>
-    <description>Some text about your blog.</description>
+    <description>Un blog de tout et de rien</description>
     <link>http://localhost:4000/jekyllblog/</link>
     <atom:link href="http://localhost:4000/jekyllblog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 15 Sep 2018 18:53:26 +0200</pubDate>
-    <lastBuildDate>Sat, 15 Sep 2018 18:53:26 +0200</lastBuildDate>
+    <pubDate>Sun, 16 Sep 2018 18:30:34 +0200</pubDate>
+    <lastBuildDate>Sun, 16 Sep 2018 18:30:34 +0200</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Un petit gestionnaire de mot de passe</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;Testé sur Ubuntu 16.04LTS en Septembre 2018&lt;/p&gt; &lt;/blockquote&gt; &lt;h1 id=&quot;présentation&quot;&gt;Présentation&lt;/h1&gt; &lt;p&gt;Pick est un gestionnaire de mots de passe, écrit en &lt;em&gt;Go&lt;/em&gt; dont les sources sont disponibles sur &lt;a href=&quot;https://github.com/bndw/pick&quot;&gt;GitHub&lt;/a&gt;, souvent dans des projets on est amené à avoir des mots de passe pour des bases de test, des comptes d’administration etc. Il est bon de les avoir sous la main même lorsque l’on est dans son terminal. Et il est recommandé de ne pas les laisser traîner en clair. Pick est un outil qui répond tout à fait à cette problématique.&lt;/p&gt; &lt;p&gt;Il permet en effet :&lt;/p&gt; &lt;ul&gt; &lt;li&gt;de générer...</description>
+        <pubDate>Sat, 15 Sep 2018 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/jekyllblog/pick-pour-stocker-des-mdps/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyllblog/pick-pour-stocker-des-mdps/</guid>
+        
+        <category>CLI-Tools</category>
+        
+        <category>security</category>
+        
+        <category>password</category>
+        
+        
+        <category>short</category>
+        
+      </item>
     
       <item>
         <title>Un blog avec Jekyll</title>
@@ -22,20 +40,6 @@
         
         
         <category>Jekyll</category>
-        
-      </item>
-    
-      <item>
-        <title>Minhas primeiras 5 impressões sobre Django</title>
-        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
-        <pubDate>Thu, 11 May 2017 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/jekyllblog/minhas-primeiras-5-impressoes-sobre-django/</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyllblog/minhas-primeiras-5-impressoes-sobre-django/</guid>
-        
-        <category>django</category>
-        
-        
-        <category>django</category>
         
       </item>
     
