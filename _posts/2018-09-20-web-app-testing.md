@@ -3,7 +3,7 @@ title: Une présentation de ce qui peut être fait pour tester une application W
 layout: post
 description: "Résolution d'un challenge de type CTF."
 image: "/jekyllblog/img/pick-mdp.gif"
-category: 'short'
+category: 'tutorial'
 tags:
 - Web
 - security
