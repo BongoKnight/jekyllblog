@@ -14,6 +14,8 @@ introduction: "Voici quelques livres, des mémos, des comptes twitters, des truc
 
 # Livres
 
+
+
 | Titre | Description |
 |:-------:|:------|
 | The Art Of Memory Forensics  | Un livre pour prendre en main et approfondir Volatility, très complet pour l'analyse Forensic d'un système  |
@@ -22,6 +24,7 @@ introduction: "Voici quelques livres, des mémos, des comptes twitters, des truc
 | Violent Python   | Un ensemble de script python, bien détaillé permettant de prendre en main des librairies intéressantes pour le scripting  |
 | Sécurité informatique - Ethical Hacking   | Dans la même veine que le précédent, en français, assez détaillé.  |
 | Computer Networking, a top down Approach   | Un livre de réseau très complet  |
+
 
 # Comptes Tweeter
 
