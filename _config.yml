@@ -3,10 +3,10 @@ title: Blog
 email: simon.vernin+jekyll@gmail.com
 description: Un blog de tout et de rien
 baseurl: "/jekyllblog" # the subpath of your site, e.g. /blog
-url: "https://svernin.github.io/" # the base hostname & protocol for your site
+url: "https://bongoknight.github.io/" # the base hostname & protocol for your site
 
 # User Settings
-username: SVernin
+username: BongoKnight
 user_description: Etudiant souhaitant partager ses découvertes
 
 
