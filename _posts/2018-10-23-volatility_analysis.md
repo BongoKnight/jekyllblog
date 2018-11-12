@@ -1,9 +1,9 @@
 ---
-title: Annalyse avec Volatility
+title: Création d'un dump de RAM utilisable avec Volatility
 layout: post
-description: "Retrouver diverses informations avec Volatility..."
+description: "Dump à partir de VBox avec Volatility..."
 image: "/jekyllblog/img/security.png"
-category: 'ticket'
+category: 'short'
 tags:
 - security
 - Forensics
@@ -84,9 +84,6 @@ volatility -f MyVM.raw --profile=LinuxUbuntu1604x64 --help  --cache
 
 Cependant ici le profil Linux n'est pas disponible, il faut alors créer son propre profil en suivant la procédure décrite [ici](https://github.com/volatilityfoundation/volatility/wiki/Linux) .
 
-# Analyse
-
-## Récupération des processus :
 
 
 ## Ressources

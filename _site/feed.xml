@@ -5,13 +5,29 @@
     <description>Un blog de tout et de rien</description>
     <link>http://localhost:4000/jekyllblog/</link>
     <atom:link href="http://localhost:4000/jekyllblog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 06 Nov 2018 22:55:19 +0100</pubDate>
-    <lastBuildDate>Tue, 06 Nov 2018 22:55:19 +0100</lastBuildDate>
+    <pubDate>Mon, 12 Nov 2018 08:37:45 +0100</pubDate>
+    <lastBuildDate>Mon, 12 Nov 2018 08:37:45 +0100</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
-        <title>Proposition pour analyser des sites de phishing depuis des logs</title>
-        <description>&lt;h1 id=&quot;contextualisation&quot;&gt;Contextualisation&lt;/h1&gt; &lt;p&gt;On s’intéresse à un ensemble d’URL que l’on a en notre possession. On suspecte certaines de ces URL d’être des sites de phishing visant une URL connue. Par exemple, l’URL de ce blog (vu la quantité d’informations dessus il n’est peu être pas très pertinent de le recopier mais bon, sait on jamais). En pratique, ce sera plutôt la page d’authentification sur un service (assurance, banque, compte client…) ou vers une fausse page de facturation afin d’extirper les coordonnées de carte bancaire ou les identifiants de connexions. Cet ensemble d’URLs peut être récupéré en regardant les logs du...</description>
+        <title>Réalisation d'un plugin de prise de notes pour Firefox</title>
+        <description>&lt;h1 id=&quot;contexte-et-besoin&quot;&gt;Contexte et besoin&lt;/h1&gt; &lt;p&gt;L’idée de ce projet est de faire une extension qui simplifie la prise de notes lors de la réalisation de challenges de sécurité. En effet en ayant souvent un navigateur d’ouvert, plus quelques terminaux, plus une documentation, plus une RFC, plus un plein d’autres choses plus ou moins utiles il est pratique d’avoir dans son navigateur un petit endroit pour prendre des notes du genre :&lt;/p&gt; &lt;ul&gt; &lt;li&gt;CMS SuperCMS_nonmaintenu_v.3.0 : CVE-2018-5468435&lt;/li&gt; &lt;li&gt;Champs à tester : &lt;ul&gt; &lt;li&gt;authentification&lt;/li&gt; &lt;li&gt;recherche&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Puis de détailler plus tard dans un autre document ce qui a été fait. L’important...</description>
+        <pubDate>Mon, 12 Nov 2018 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/jekyllblog/make-firefox-addon/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyllblog/make-firefox-addon/</guid>
+        
+        <category>Web</category>
+        
+        <category>tutorial</category>
+        
+        
+        <category>tutorial</category>
+        
+      </item>
+    
+      <item>
+        <title>Analyser des sites de phishing</title>
+        <description>&lt;h1 id=&quot;contextualisation&quot;&gt;Contextualisation&lt;/h1&gt; &lt;p&gt;Les informations données ci-dessous sont issues de mon expérience personnelle. Elles n’ont pas vocation à être des vérités générales, mais elles sont là pour aider et proposer des pistes à des personnes qui se demanderaient comment il est possible de détecter des sites de phishing visant une organisation particulière.&lt;/p&gt; &lt;p&gt;On s’intéresse ici à un ensemble d’URL que l’on a en notre possession. On suspecte certaines de ces URL d’être des sites de phishing visant une URL connue. Par exemple, l’URL de ce blog (vu la quantité d’informations dessus il n’est peu être pas très pertinent de le recopier...</description>
         <pubDate>Mon, 05 Nov 2018 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/jekyllblog/phishing-detection/</link>
         <guid isPermaLink="true">http://localhost:4000/jekyllblog/phishing-detection/</guid>
@@ -28,7 +44,7 @@
       </item>
     
       <item>
-        <title>Annalyse avec Volatility</title>
+        <title>Création d'un dump de RAM utilisable avec Volatility</title>
         <description>&lt;h1 id=&quot;contexte&quot;&gt;Contexte&lt;/h1&gt; &lt;p&gt;Nous utilisons ici une VM Xubuntu 17.04 avec la version 1.06 BETA de PasswordSafe : https://sourceforge.net/projects/passwordsafe/files/Linux-BETA/&lt;/p&gt; &lt;p&gt;L’idée est d’arriver à récupérer un maximum d’information à partir du dump de RAM de la VM, peut être les mot de passe, et sinon des informations contenues dans le navigateur. En particulier, celles contenues dans la page d’accueil de Gmail.&lt;/p&gt; &lt;h2 id=&quot;installation-de-password-passwdsafe&quot;&gt;Installation de Password PasswdSafe&lt;/h2&gt; &lt;p&gt;Un package .deb est disponible à l’adresse mentionnée ci-dessus.&lt;/p&gt; &lt;h2 id=&quot;dump-de-ram-à-partir-de-vbox&quot;&gt;Dump de RAM à partir de VBox&lt;/h2&gt; &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;VBoxManage debugvm MyVm dumpvmcore &lt;span class=&quot;nt&quot;&gt;--filename&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;MyVM.elf readelf &lt;span class=&quot;nt&quot;&gt;--program-headers&lt;/span&gt; MyVM.elf Type de fichier ELF...</description>
         <pubDate>Tue, 23 Oct 2018 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/jekyllblog/volatility_analysis/</link>
@@ -39,7 +55,7 @@
         <category>Forensics</category>
         
         
-        <category>ticket</category>
+        <category>short</category>
         
       </item>
     
