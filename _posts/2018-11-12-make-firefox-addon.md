@@ -129,13 +129,97 @@ class TodoItems extends Component {
 
 export default TodoItems
 ```
+> On instancie un *Converter*.
+>
+> On convertit le markdown en entrée et on l'affiche dans le composant.
+
+On cherche maintenant à permettre le stockage local.
+
+## Ajout du support du stockage local
+
+Voici la fonction `addItem` remise au goût du jour, ainsi que le constructeur modifié de *App.js*
+```js
+addItem = e => {
+      e.preventDefault()
+      const newItem = this.state.currentItem
+      if (newItem.text !== '') {
+        const items = [...this.state.items, newItem]
+        this.setState({
+          items: items,
+          currentItem: { text: '', key: '' },
+        })
+      }
+      var gettingItem = browser.storage.local.get(newItem.key);
+      gettingItem.then((result) => {
+
+        var objTest = Object.keys(result);
+        if(objTest.length < 1 && newItem.text !== '') {
+          var storingNote = browser.storage.local.set({ [newItem.key] : newItem.text });
+        }
+      });
+    }
+
+
+
+    constructor() {
+      super()
+      this.state = {
+        items: [],
+        currentItem: {text:'', key:''},
+      }
+      var storedItems = []
+      var gettingAllStorageItems = browser.storage.local.get();
+      gettingAllStorageItems.then((results) => {
+
+        var noteKeys = Object.keys(results);
+        for (let noteKey of noteKeys) {
+          var curValue = results[noteKey];
+          storedItems = [...storedItems, {key:noteKey.toString(),text:curValue.toString()}];
+          this.setState({items: storedItems,currentItem: {text:'', key:''}});
+        }
+      });
+
+```
+
+> La fonction `browser.storage.local.get` permet de récupérer les différents items stockés sur le disque au démarrage de l'application, puis de les stocker dans la variables d'état de l'application.
+> La fonction `addItem` est modifiée pour enregistrer les changements dans le stockage local.
+> Il en est de même pour les fonctions `updateItem` et `deleteItem`.
+
+
+# Débogage et installation persistante
+
+## Débogage
+Dans l'onglet "about:debugging" de Firefox, il est possible d'importer temporairement un plugin et de le déboguer avec les outils intégrés.
+
+Sinon une bonne façon de faire est de lancer les commandes suivantes dans deux terminaux distincts :
+```bash
+npm run build
+npm start
+```
+
+Il est ensuite possible d'avoir les mêmes outils de débogage dans le navigateur que pour une application web "normale". Pour cela il suffit d'aller dans :
+  - Outil de développement > Boite à outil du navigateur (Ctrl+Maj+Alt+I)
+
+## Installation persistante
+
+Il faut d'abord créer un fichier `.zip` des sources au bon format. Pour se faire suivre la démarche décrite [ici](https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions/Publishing_your_WebExtension). Cette solution utilise `web-ext` qui va packager sous le bon format vos sources en se basant sur le manifest. La sortie est un zip avec de ce type : `mon-nom-du-manifest.zip`.
+
+Se rendre sur le site de [Mozilla](https://addons.mozilla.org/en-US/developers/addon/submit/distribution), choisir une installation "On my own". Sélectionner votre `.zip`, la structure va être analysée, vous pourrez éventuellement corriger les warnings signalés. Cliquez sur "Sign add-on". Puis vous pourrez télécharger un `.xpi` qui est une archive construite comme il faut pour une extension. Téléchargez là, Firefox vous propose de l'installer, et vous êtes prêt!
+
+
 
 # Remarques
 ## Sécurité
 Showdown présente un [article](https://github.com/showdownjs/showdown/wiki/Markdown%27s-XSS-Vulnerability-(and-how-to-mitigate-it)) intéressant sur la gestion des failles XSS du à la nature du markdown et préconise d'utiliser une librairie de filtrage du HTML de sortie.
 
+Récemment un code malicieux a été découvert dans une dépendance assez utilisée : `event-stream`. Il faut donc rester méfiant vis à vis de trop nombreuses dépendances dans un projet. Ici le [lien](https://blog.npmjs.org/post/180565383195/details-about-the-event-stream-incident).
+
 ## Améliorations possibles
 
+- [ ] Utilisation de [XSS](https://www.npmjs.com/package/xss) pour *"nettoyer"* le HTML généré
+- [x] Avoir un bouton permettant la mise à jour pour pouvoir copier le texte du HTML sans avoir à éditer la note.
+- [ ] Permettre de générer un fichier HTML à partir des notes.
+- [ ] Pouvoir filtrer les notes, peut-être par nom de domaine ou par date.
 
 # Ressources
 
@@ -146,6 +230,10 @@ Plugin Shodan.io : [https://addons.mozilla.org/en-US/firefox/addon/shodan_io/](h
 Documentation de l'API WebExtension : [https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions](https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions)
 
 Exemples d'addons : [https://github.com/mdn/webextensions-examples](https://github.com/mdn/webextensions-examples)
+
+Informations sur la publication avec WebExt : [https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions/Publishing_your_WebExtension](https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions/Publishing_your_WebExtension)
+
+Publication des add-ons : [https://addons.mozilla.org/en-US/developers/addon/submit/distribution](https://addons.mozilla.org/en-US/developers/addon/submit/distribution)
 
 Tutoriel React : [https://hackernoon.com/create-a-simple-todo-app-in-react-9bd29054566b](https://hackernoon.com/create-a-simple-todo-app-in-react-9bd29054566b)
 
