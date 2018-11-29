@@ -12,8 +12,9 @@ twitter_text: "Toutes sortes de ressources en sécurité."
 introduction: "Voici quelques livres, des mémos, des comptes twitters, des trucs et astuces etc!"
 ---
 
-# Livres
+> Il est possible que sur mobile les ressources ne s'affichent pas correctement. Auquel cas il est préférable de passer à la version ordinateur.
 
+# Livres
 
 
 | Titre | Description |

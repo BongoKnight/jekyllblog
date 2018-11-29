@@ -5,9 +5,25 @@
     <description>Un blog de tout et de rien</description>
     <link>http://localhost:4000/jekyllblog/</link>
     <atom:link href="http://localhost:4000/jekyllblog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 29 Nov 2018 20:06:45 +0100</pubDate>
-    <lastBuildDate>Thu, 29 Nov 2018 20:06:45 +0100</lastBuildDate>
+    <pubDate>Thu, 29 Nov 2018 21:10:10 +0100</pubDate>
+    <lastBuildDate>Thu, 29 Nov 2018 21:10:10 +0100</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Vérification du code avec SonarQube</title>
+        <description>&lt;h1 id=&quot;contexte&quot;&gt;Contexte&lt;/h1&gt; &lt;p&gt;Dans cet article nous allons nous servir de SonarQube pour analyser le code qui a été fait dans l’article sur la réalisation d’un &lt;a href=&quot;../make-firefox-addon/index.html&quot;&gt;add-on Firefox&lt;/a&gt;. Le but ici n’est pas de se focaliser sur l’installation de SonarQube mais plus de regarder et de corriger le code qui a été fait.&lt;/p&gt; &lt;h1 id=&quot;installation-de-sonarqube&quot;&gt;Installation de SonarQube&lt;/h1&gt; &lt;p&gt;SonarQube est un outil d’analyse de la qualité d’un code. Il regarde différentes métriques comme le niveau de couverture par les tests et par la documentation. Mais aussi permet de créer ses propres règles d’analyse de code. Enfin un accent est mis sur...</description>
+        <pubDate>Thu, 29 Nov 2018 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/jekyllblog/Analyse-sonarqube/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyllblog/Analyse-sonarqube/</guid>
+        
+        <category>Web</category>
+        
+        <category>tutorial</category>
+        
+        
+        <category>tutorial</category>
+        
+      </item>
     
       <item>
         <title>Réalisation d'un plugin de prise de notes pour Firefox</title>
@@ -61,7 +77,7 @@
     
       <item>
         <title>Quelques ressources</title>
-        <description>&lt;h1 id=&quot;livres&quot;&gt;Livres&lt;/h1&gt; &lt;table&gt; &lt;thead&gt; &lt;tr&gt; &lt;th style=&quot;text-align: center&quot;&gt;Titre&lt;/th&gt; &lt;th style=&quot;text-align: left&quot;&gt;Description&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td style=&quot;text-align: center&quot;&gt;The Art Of Memory Forensics&lt;/td&gt; &lt;td style=&quot;text-align: left&quot;&gt;Un livre pour prendre en main et approfondir Volatility, très complet pour l’analyse Forensic d’un système&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td style=&quot;text-align: center&quot;&gt;Blue Team Field Manual&lt;/td&gt; &lt;td style=&quot;text-align: left&quot;&gt;Plein de commande bash utiles, intéressantes orientées sur la défense d’un système&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td style=&quot;text-align: center&quot;&gt;Red Team Field Manual&lt;/td&gt; &lt;td style=&quot;text-align: left&quot;&gt;Le cousin du précédent mais plus orienté sur l’attaque d’un système&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td style=&quot;text-align: center&quot;&gt;Violent Python&lt;/td&gt; &lt;td style=&quot;text-align: left&quot;&gt;Un ensemble de script python, bien détaillé permettant de...</description>
+        <description>&lt;blockquote&gt; &lt;p&gt;Il est possible que sur mobile les ressources ne s’affichent pas correctement. Auquel cas il est préférable de passer à la version ordinateur.&lt;/p&gt; &lt;/blockquote&gt; &lt;h1 id=&quot;livres&quot;&gt;Livres&lt;/h1&gt; &lt;table&gt; &lt;thead&gt; &lt;tr&gt; &lt;th style=&quot;text-align: center&quot;&gt;Titre&lt;/th&gt; &lt;th style=&quot;text-align: left&quot;&gt;Description&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td style=&quot;text-align: center&quot;&gt;The Art Of Memory Forensics&lt;/td&gt; &lt;td style=&quot;text-align: left&quot;&gt;Un livre pour prendre en main et approfondir Volatility, très complet pour l’analyse Forensic d’un système&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td style=&quot;text-align: center&quot;&gt;Blue Team Field Manual&lt;/td&gt; &lt;td style=&quot;text-align: left&quot;&gt;Plein de commande bash utiles, intéressantes orientées sur la défense d’un système&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td style=&quot;text-align: center&quot;&gt;Red Team Field Manual&lt;/td&gt; &lt;td style=&quot;text-align: left&quot;&gt;Le cousin du...</description>
         <pubDate>Sat, 22 Sep 2018 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/jekyllblog/ressources/</link>
         <guid isPermaLink="true">http://localhost:4000/jekyllblog/ressources/</guid>
