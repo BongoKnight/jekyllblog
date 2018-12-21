@@ -5,8 +5,8 @@
     <description>Un blog de tout et de rien</description>
     <link>http://localhost:4000/jekyllblog/</link>
     <atom:link href="http://localhost:4000/jekyllblog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 29 Nov 2018 21:10:10 +0100</pubDate>
-    <lastBuildDate>Thu, 29 Nov 2018 21:10:10 +0100</lastBuildDate>
+    <pubDate>Fri, 21 Dec 2018 22:38:44 +0100</pubDate>
+    <lastBuildDate>Fri, 21 Dec 2018 22:38:44 +0100</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
