@@ -5,9 +5,41 @@
     <description>Un blog de tout et de rien</description>
     <link>http://localhost:4000/jekyllblog/</link>
     <atom:link href="http://localhost:4000/jekyllblog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 21 Dec 2018 22:38:44 +0100</pubDate>
-    <lastBuildDate>Fri, 21 Dec 2018 22:38:44 +0100</lastBuildDate>
+    <pubDate>Wed, 30 Jan 2019 16:28:21 +0100</pubDate>
+    <lastBuildDate>Wed, 30 Jan 2019 16:28:21 +0100</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Crowie, un honeypot SSH</title>
+        <description>&lt;h1 id=&quot;un-honeypot-cest-quoi--et-pourquoi-faire-&quot;&gt;Un honeypot, c’est quoi ? Et pourquoi faire ?&lt;/h1&gt; &lt;h2 id=&quot;contexte&quot;&gt;Contexte&lt;/h2&gt; &lt;p&gt;Il y a peu j’ai décider d’acquérir un VPS, je me disais que c’était pour moi une occasion de bricoler un peu et de me pencher sur des problématique d’installation, de configuration, de protection etc. Me voilà donc “propriétaire” d’un serveur, exposé au yeux de tous. La première chose à faire est donc de le protéger, de le sécuriser un peu. J’ai donc créer un utilisateur non &lt;em&gt;root&lt;/em&gt;, empêché la connexion à partir de &lt;em&gt;root&lt;/em&gt;, choisi un mot de passe solide et unique. Et quelques autres choses. Je...</description>
+        <pubDate>Tue, 29 Jan 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/jekyllblog/ssh-honeypot/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyllblog/ssh-honeypot/</guid>
+        
+        <category>SSH</category>
+        
+        <category>security</category>
+        
+        
+        <category>Jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>Un challenge CTF sur HTB</title>
+        <description>&lt;h1 id=&quot;hack-the-box&quot;&gt;Hack the box&lt;/h1&gt; &lt;p&gt;&lt;strong&gt;Hack The Box&lt;/strong&gt; est une plateforme en ligne utilisable pour apprendre et se perfectionner en cybersécurité et plus particulièrement dans les tests d’intrusions. Pour s’y inscrire il est nécessaire de résoudre un petit challenge, en général assez simple. Une fois inscrit et connecté il est possible de télécharger un certificat qui permet de se connecter au réseau HTB grâce à &lt;code class=&quot;highlighter-rouge&quot;&gt;openvpn&lt;/code&gt;.&lt;/p&gt; &lt;p&gt;Une petite centaine de machine sont alors à votre disposition pour vous entraîner.&lt;/p&gt; &lt;h1 id=&quot;irked&quot;&gt;Irked&lt;/h1&gt; &lt;h2 id=&quot;reconnaissance&quot;&gt;Reconnaissance&lt;/h2&gt; &lt;h3 id=&quot;scan&quot;&gt;Scan&lt;/h3&gt; &lt;p&gt;Commençons par un scan “léger” se limitant aux 10 ports les plus courants :&lt;/p&gt; &lt;div...</description>
+        <pubDate>Sat, 22 Dec 2018 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/jekyllblog/ctf-htb/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyllblog/ctf-htb/</guid>
+        
+        <category>CTF</category>
+        
+        <category>HTB</category>
+        
+        
+        <category>Jekyll</category>
+        
+      </item>
     
       <item>
         <title>Vérification du code avec SonarQube</title>

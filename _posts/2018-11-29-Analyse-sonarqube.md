@@ -80,6 +80,6 @@ Pour chaque portions de code à réviser, il y a en cliquant sur `...` un petit 
 Il est possible de définir des métriques personnelles mais je reviendrais dessus dans un autre article, ou plus tard ici.
 
 
-# COnclusion
+# Conclusion
 
 La découverte de ce logiciel est pour moi une bonne surprise. Il a l'air assez complet l'interface est bien faite. L'accompagnement à la résolution des problèmes est intelligemment pensée. Je l'ai essayé rapidement juste pour voir à quoi cela mais à l'occasion faire le test sur un code plus *industriel* me plairait. Je garde donc tout ça dans un coin de la tête.
